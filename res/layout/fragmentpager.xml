@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/im_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/jiangcai"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="4dp"/>
+    <RelativeLayout
+        android:id="@+id/school_intro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/preference_first_item"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/schoolintroduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:padding="10dp"
+            android:text="@string/schoolIntroduction"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/schintro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/submenu_selector" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/academy_instro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/preference_last_item"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/academyintro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:padding="10dp"
+            android:text="@string/academyIntroduction"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/go_submenu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/submenu_selector" />
+    </RelativeLayout>
+    
+   <RelativeLayout
+        android:id="@+id/schoolcard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/preference_first_item"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/card_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:padding="10dp"
+            android:text="@string/schoolCard"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/about_submenu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/submenu_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fees_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/preference_item"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/fees_and_insurance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:padding="10dp"
+            android:text="@string/fees_Insurance"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/about_submenu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/submenu_selector" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/dormitry_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/preference_last_item"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/dormitry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:padding="10dp"
+            android:text="@string/Dormitory"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/about_submenu5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/submenu_selector" />
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:id="@+id/school_map_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/preference_single_item"
+        android:clickable="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/schoolmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-5dp"
+            android:padding="10dp"
+            android:text="@string/schoolMap"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/money_submenu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/submenu_selector" />
+    </RelativeLayout>
+</LinearLayout>

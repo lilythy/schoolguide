@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:orientation="horizontal"
+    android:background="@color/steeblue"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/dorm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="@string/guid"
+        android:textColor="@color/white"
+        android:textSize="20.0dp"/>
+ 
+    </LinearLayout>
+    
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/bottom">
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:flipInterval="30" 
+        android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</RelativeLayout>
